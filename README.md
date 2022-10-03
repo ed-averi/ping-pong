@@ -68,7 +68,7 @@ See [reference](https://expressjs.com/en/guide/routing.html#express-router)
 Check the message! 
 
 ```
-await fetch('http://localhost:1234/').then(res => res.json())
+await fetch('http://localhost:1234/buba-gump/').then(res => res.json())
 ```
 
 
@@ -77,7 +77,7 @@ I did not use postman to check the API, I used it on the console using the cors 
 The client sends the ping request
 
 ```
-await fetch('http://localhost:1234/ping', {method: 'POST'}).then(res => res.json())
+await fetch('http://localhost:1234/buba-gump/ping/', {method: 'POST'}).then(res => res.json())
 ```
 
 Output:
@@ -92,7 +92,7 @@ message
 The client sends the pong request
 
 ```
-await fetch('http://localhost:1234/pong', {method: 'POST'}).then(res => res.json())
+await fetch('http://localhost:1234/buba-gump/pong', {method: 'POST'}).then(res => res.json())
 ```
 
 Output:

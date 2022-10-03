@@ -6,7 +6,7 @@ const PORT = 1234;
 
 const app = express();
 
-app.use(bRoute)
+app.use('/buba-gump', bRoute)
 app.use(cors)
 
 app.listen(PORT, () => console.log(`The server is listening on port ${PORT}`));
