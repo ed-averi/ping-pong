@@ -104,4 +104,4 @@ message
 "ping"
 ```
 
-<img src="./assets/ss.jpg">
+<img src="./assets/ss1.jpg">
